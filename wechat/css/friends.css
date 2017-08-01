@@ -52,7 +52,7 @@
 	width: 100%;
 	height: 45%;
 	position: relative;
-	background: url(../img/photo/bsj.png) no-repeat;
+	background: url(../img/photo/11.PNG) no-repeat;
 	background-size: cover;
 	display: inline-block;
 	/*overflow: scroll;*/
@@ -75,7 +75,7 @@
 	bottom: -30px;
 	right: 10px;
 	border: 1px solid window-inset;
-	background: url(../img/photo/女孩-02.jpeg) no-repeat;
+	background: url(../img/photo/头像2.PNG) no-repeat;
 	background-size: cover;
 }
 
@@ -105,7 +105,7 @@
 #friends-main-first-head{
 	width: 45px;
 	height: 45px;
-	background: url(../img/photo/女孩-01.jpeg) no-repeat;
+	background: url(../img/photo/1.PNG) no-repeat;
 	background-size: contain;
 	/*margin: 10px ;*/
 }
@@ -147,7 +147,7 @@
 .friends-main-onepicture{
 	width: 120px;
 	height: 100px;
-	background: url(../img/photo/汉堡.jpg) no-repeat;
+	background: url(../img/photo/3.PNG) no-repeat;
 	background-size: cover;
 }
 
@@ -238,7 +238,7 @@
 #friends-main-second-head{
 	width: 45px;
 	height: 45px;
-	background: url(../img/photo/情侣-01.jpg) no-repeat;
+	background: url(../img/photo/头像3.PNG) no-repeat;
 	background-size: contain;
 }
 
@@ -248,17 +248,17 @@
 }
 
 #friends-main-second-picture1{
-	background: url(../img/images/建筑-02.jpg) no-repeat;
+	background: url(../img/photo/4.PNG) no-repeat;
 	background-size: cover;
 }
 
 #friends-main-second-picture2{
-	background: url(../img/images/建筑-03.jpg) no-repeat;
+	background: url(../img/photo/5.PNG) no-repeat;
 	background-size: cover;
 }
 
 #friends-main-second-picture3{
-	background: url(../img/images/建筑-01.jpg) no-repeat;
+	background: url(../img/photo/10.PNG) no-repeat;
 	background-size: cover;
 }
 
@@ -270,7 +270,7 @@
 #friends-main-three-head{
 	width: 45px;
 	height: 45px;
-	background:url(../img/photo/奥巴马-01.jpg) no-repeat;
+	background:url(../img/photo/6.PNG) no-repeat;
 	background-size: contain;
 }
 
@@ -284,4 +284,21 @@
 .friends-main-threepicture{
 	width:130px;
 	height: 100px;
+}
+
+#friends-main-three-picture1{
+	background:url(../img/photo/9.PNG) no-repeat;
+	background-size: contain;
+}
+
+
+#friends-main-three-picture2{
+	background:url(../img/photo/8.PNG) no-repeat;
+	background-size: contain;
+}
+
+
+#friends-main-three-picture3{
+	background:url(../img/photo/7.PNG) no-repeat;
+	background-size: contain;
 }

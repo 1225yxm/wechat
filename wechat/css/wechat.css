@@ -41,17 +41,14 @@
 	line-height: 8px;
 	align-items: center;
 	background-color: white;
-	border: 1px solid  #616161;
-	
-	/*position: absolute;
-	left: -3px;
-	top: 4px;*/
+	border: 2px solid  #616161;
+	border-right: none;
 }
 
 #wechat-top-electric{
 	width: 25px;height: 8px;
-	background-image: linear-gradient(to  left , white 80% ,  #212121  );
-	border: 1px solid  #616161;
+	background-image: linear-gradient(to  left , white 89% ,  #212121  );
+	border: 2px solid  #616161;
 	padding: 0.3px;
 	
 }
@@ -208,6 +205,7 @@
 	height: 60px;
 	position: relative;
 	border-bottom: 1px solid #BDBDBD;
+	min-width: 150px;
 	/*display: flex;
 	align-items: center;
 	justify-content: space-around;*/
@@ -221,6 +219,19 @@
 	/*margin:10px 1px 10px 10px ;*/
 }
 
+.wechat-second-news{
+	width: 15px;height: 15px;
+	background-color: #f44336;
+	border-radius: 50%;
+	position: absolute;
+	top: -2px;
+	right: -5px;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	line-height: 15px;
+}
+
 .wechat-second-style2{
 	width: /*140px*/50%;height: 31px;
 	position: absolute;
@@ -228,6 +239,7 @@
 	top: 15px;
 	white-space: nowrap;
 	overflow: hidden;
+	min-width: 120px;
 }
 
 .wechat-second-style3{
@@ -259,17 +271,17 @@
 }
 
 #wechat-second-picture1{
-	background: url(../img/photo/wuhong.jpg) no-repeat;
+	background: url(../img/photo/头像3.PNG) no-repeat;
 	background-size: contain;
 }
 
 #wechat-second-picture2{
-	background: url(../img/photo/bsj.png) no-repeat;
+	background: url(../img/photo/头像4.PNG) no-repeat;
 	background-size: contain;
 }
 
 #wechat-second-picture3{
-	background: url(../img/photo/neusoft.png) no-repeat;
+	background: url(../img/photo/头像5.PNG) no-repeat;
 	background-size: contain;
 }
 
@@ -279,17 +291,17 @@
 }
 
 #wechat-second-picture5{
-	background: url(../img/photo/三胖-01.jpg) no-repeat;
+	background: url(../img/photo/头像6.PNG) no-repeat;
 	background-size: contain;
 }
 
 #wechat-second-picture6{
-	background: url(../img/photo/奥巴马-01.jpg) no-repeat;
+	background: url(../img/photo/1.PNG) no-repeat;
 	background-size: contain;
 }
 
 #wechat-second-picture7{
-	background: url(../img/photo/奥巴马-02.jpg) no-repeat;
+	background: url(../img/photo/3.PNG) no-repeat;
 	background-size: contain;
 }
 
@@ -304,7 +316,7 @@
 }
 
 #wechat-second-picture10{
-	background: url(../img/photo/情侣-01.jpg) no-repeat;
+	background: url(../img/photo/9.PNG) no-repeat;
 	background-size: contain;
 }
 
