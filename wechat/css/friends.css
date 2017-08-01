@@ -1,0 +1,287 @@
+
+#friends-menu{
+	width: /*600px*/100%;height: 45px;
+	background-color: #424242;
+	position: relative;
+	float: top;
+	
+	/*padding: 5px 10px 5px 10px;*/
+}
+
+#friends-menu1{
+	width: 30px;
+	height: 25px;
+	float: left;
+	margin:10px 0px 7.5px 10px;
+	border-right: 1px solid #212121;
+	background: url(../img/icon/返回.PNG) no-repeat;
+	background-size: contain;
+}
+
+#friends-menu2{
+	width: 50px;
+	height: 30px;
+	float: left;
+	margin:7.5px 10px 7.5px 0px;
+	font-size: 90%;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
+
+#friends-menu3{
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin:7.5px 10px 7.5px 10px;
+	background: url(../img/icon/相机.PNG) no-repeat;
+	background-size: contain;
+}
+
+
+#friends-main{
+	width: 100%;
+	height: 100%;
+	flex-grow: 1;
+	overflow: scroll;
+	display: inline-block;
+	
+}
+
+#friends-main-background{
+	width: 100%;
+	height: 45%;
+	position: relative;
+	background: url(../img/photo/bsj.png) no-repeat;
+	background-size: cover;
+	display: inline-block;
+	/*overflow: scroll;*/
+}
+
+#friends-main-name{
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 80px ;
+	color: #E0E0E0;
+	text-align: center;
+}
+
+#friends-main-head{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	bottom: -30px;
+	right: 10px;
+	border: 1px solid window-inset;
+	background: url(../img/photo/女孩-02.jpeg) no-repeat;
+	background-size: cover;
+}
+
+#friends-main-hold{
+	width: 100%;
+	height: 100%;
+	flex-grow: 1;	
+}
+
+#friends-main-first{
+	width: 100%;
+	height: /*200px*/auto;
+	display: flex;
+	flex-flow: row nowrap;
+	margin-top: 30px;
+	border-bottom: 1px solid #EEEEEE;
+	border-bottom: 1px solid #;
+}
+
+.friends-main-first-left{
+	width: 45px;
+	height: /*40px*/100%;
+	margin: 0px 5px 0px 10px;
+	display: inline-block;
+}
+
+#friends-main-first-head{
+	width: 45px;
+	height: 45px;
+	background: url(../img/photo/女孩-01.jpeg) no-repeat;
+	background-size: contain;
+	/*margin: 10px ;*/
+}
+
+.friends-main-first-right{
+	width: 75%/*270px*/;
+	height: 100%;
+	display: inline-block;
+	
+}
+
+
+.friends-main-first-name{
+	width: /*150px*/100%;
+	height: 20px;
+	margin-top: 0px;
+	font-size: 80%;
+	line-height: 20px;
+	color: #546E7A;
+}
+
+.friends-main-first-text{
+	width: 100%;
+	height: /*46px*/auto;
+	color: #212121;
+	font-size: 80%;
+	/*text-align: center;*/
+	line-height: 23px;
+	
+}
+
+.friends-main-picture{
+	width: /*60%*/100%;
+	height: /*100px*/auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.friends-main-onepicture{
+	width: 120px;
+	height: 100px;
+	background: url(../img/photo/汉堡.jpg) no-repeat;
+	background-size: cover;
+}
+
+.friends-main-first-bottom{
+	width: 100%;
+	height: 35px;	
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.friends-main-first-bottom-left{
+	width: 50px;
+	height: 30px;
+	font-size: 80%;
+	color: #BDBDBD;
+	line-height: 35px;
+	margin-left: 0px;
+	/*float: left;*/
+}
+
+.friends-main-first-bottom-right{
+	width: 30px;
+	height: 25px;
+	margin-right: 0px;
+	background: url(../img/icon/评论.PNG) no-repeat;
+	background-size: contain;
+	position: relative;
+	/*overflow: hidden;*/
+}
+
+.friends-main-first-bottom-right:hover .friends-main-first-bottom-hidden{
+	visibility: visible;
+}
+
+.friends-main-first-bottom-hidden{
+	width:150px;
+	height: 35px;
+	display: flex;
+	flex-flow: row nowrap;
+	position: absolute;
+	left: -150px;
+	top: -5px;
+	background-color: #424242;
+	visibility: hidden;
+	/*z-index: 9;*/
+}
+
+.friends-main-bottom{
+	width: 150px;
+	height: 35px;
+	align-items: center;
+}
+
+.friends-main-bottom-style{
+	width: 75px;
+	height: 35px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+#friends-main-bottom1{
+	width: 20px;height: 20px;
+	margin: 7.5px ;
+	background: url(../img/icon/control/赞1.PNG) no-repeat;
+	background-size: contain;
+}
+
+#friends-main-bottom2{
+	width: 20px;height: 20px;
+	margin: 7.5px ;
+	background: url(../img/icon/control/评论2.PNG)   no-repeat;
+	background-size: contain;
+}
+
+#friends-main-second{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-flow: row nowrap;
+	
+	margin-top: 30px;
+
+	border-bottom: 1px solid #EEEEEE;
+}
+
+#friends-main-second-head{
+	width: 45px;
+	height: 45px;
+	background: url(../img/photo/情侣-01.jpg) no-repeat;
+	background-size: contain;
+}
+
+.friends-main-fourpicture{
+	width:100px;
+	height: 100px;
+}
+
+#friends-main-second-picture1{
+	background: url(../img/images/建筑-02.jpg) no-repeat;
+	background-size: cover;
+}
+
+#friends-main-second-picture2{
+	background: url(../img/images/建筑-03.jpg) no-repeat;
+	background-size: cover;
+}
+
+#friends-main-second-picture3{
+	background: url(../img/images/建筑-01.jpg) no-repeat;
+	background-size: cover;
+}
+
+#friends-main-second-picture4{
+	background: url(../img/photo/bsj.png) no-repeat;
+	background-size: cover;
+}
+
+#friends-main-three-head{
+	width: 45px;
+	height: 45px;
+	background:url(../img/photo/奥巴马-01.jpg) no-repeat;
+	background-size: contain;
+}
+
+.friends-main-picture3{
+	width: /*60%*/100%;
+	height: /*100px*/auto;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.friends-main-threepicture{
+	width:130px;
+	height: 100px;
+}

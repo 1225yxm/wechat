@@ -1,0 +1,14 @@
+#address-menu1{
+	background: url(../img/icon/menu/聊天.svg) no-repeat;
+	background-size: contain;
+}
+
+#address-menu2{
+	background: url(../img/icon/menu/通讯录-press.svg) no-repeat;
+	background-size: contain;
+}
+
+#address-second-picture1{
+	background: url(../img/images/群聊.PNG) no-repeat;
+	background-size: cover;
+}

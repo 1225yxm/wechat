@@ -1,0 +1,60 @@
+#bottom{
+				width:/*1200px*/89.5%;height: 190px;
+				
+				position: absolute;
+				top: 660px;
+				left: /*75px*/5.6%;
+				min-width: 870px;
+			}
+			#bottom1{
+				width: 280px;height: 190px;
+				box-shadow: 0px 0px 10px red;
+				/*min-width: 1020px;*/
+				position: absolute;
+				top: 0px;
+				left:0px;
+				display: flex;
+				flex-flow: wrap;
+			}
+			
+			.bottom-1{
+				width: 93.3px;height: 95px;
+				display: flex;
+				flex-flow: column wrap;
+				
+				line-height: 95px;
+				background-color: #616161;
+				color: white;
+				text-align: center;
+			}
+			
+			#bottom2{
+				position: absolute;
+				top: 0px;
+				left: /*282px*/23.5%;
+				background: url(../img/images/xmad_14977951260311_AlzsH.jpg);
+				background-size: cover;
+				/*visibility: hidden;*/
+			}
+			#bottom3{
+				position: absolute;
+				top: 0px;
+				left:/* 589px*/49%;
+				background: url(../img/images/xmad_15011426522699_kQyli.jpg);
+				
+				background-size: cover;
+				
+			}
+			#bottom4{
+				position: absolute;
+				top: 0px;
+				left: 74.6%;
+				background: url(../img/images/xmad_15008876143703_gOecR.jpg);
+				background-size: cover;
+			}
+			.bottom-style{
+				width:/*25.4% */305px;height: 190px;
+				
+				display: inline-block;
+				
+			}

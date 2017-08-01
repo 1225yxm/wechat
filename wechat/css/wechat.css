@@ -1,0 +1,385 @@
+#wechat-top{
+	width: /*600px*/100%;
+	height: 20px;
+	background-color: #212121;
+	align-items: center;
+}
+
+#wechat-top-left{
+	width: 20px;
+	height: 15px;
+	float: left;
+	font-size: 10px;
+	text-indent: 5px;
+	color: white;
+	text-align: center;
+	line-height: 15px;
+}
+
+#wechat-top-right{
+	width: 48px;height: 12px;
+	float: right;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	align-items: center;
+}
+
+#wechat-top-electric-font{
+	width: 15px;
+	height: 12px;
+	font-size: 8px;
+	line-height: 12px;
+	color: white;
+	float: right;
+}
+
+#wechat-top-electric1{
+	width: 2px;
+	height: 4px;
+	border: 1px solid  #616161;
+	line-height: 8px;
+	align-items: center;
+	background-color: white;
+	border: 1px solid  #616161;
+	
+	/*position: absolute;
+	left: -3px;
+	top: 4px;*/
+}
+
+#wechat-top-electric{
+	width: 25px;height: 8px;
+	background-image: linear-gradient(to  left , white 80% ,  #212121  );
+	border: 1px solid  #616161;
+	padding: 0.3px;
+	
+}
+
+#wechat-top-middle{
+	width: 30px;height: 12px;
+	float: right;
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-between;
+	align-items: center;
+}
+
+.wechat-top-signal{
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	border-radius: 50%;
+
+}
+
+#wechat-first{
+	width: /*600px*/100%;height: 45px;
+	background-color: #424242;
+	position: relative;
+	
+}
+
+
+#wechat-first-left{
+	width: 72px;height: 45px;
+	color: white;
+	text-indent: 10px;
+	float: left;
+	line-height: 45px;
+	
+}
+
+#wechat-first-left-message{
+	width: 30px;
+	height: 45px;
+	float: right;
+	visibility: hidden ;
+}
+
+#wechat-first-right{
+	width:60px;height: 45px;
+	position: absolute;
+	right: 15px;
+	
+}
+
+#wechat-first-search{
+	width: 25px;
+	height: 25px;
+	background:url(../img/icon/control/搜索.svg) no-repeat;
+	background-size: cover;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+}
+
+#wechat-first-add{
+	width: 25px;
+	height: 25px;
+	background: url(../img/icon/material/加号.svg) no-repeat;
+	background-size: cover;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	
+}
+
+#wechat-first-add:hover #wechat-first-add-hidden{
+	visibility: visible;
+}
+
+#wechat-first-add-hidden{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	background-color: #212121;
+	top: 36px;
+	right: 0px;
+	box-shadow: 0px 0px 10px black;
+	visibility: hidden;
+	z-index: 1;
+}
+
+.wechat-first-add-hidden-menu{
+	width: 200px;
+	height: 49.2px;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+.wechat-first-add-hidden-picture{
+	width: 25px;height: 25px;
+	position: absolute;
+	top: 12.1px;
+	left: 12px;
+}
+
+.wechat-first-add-hidden-font{
+	width: 150px;
+	height: 25px;
+	font: "微软雅黑";
+	font-size: 13px;
+	line-height: 25px;
+	color: white;
+	position: absolute;
+	right: 0px;top: 11.7px;
+}
+
+#wechat-first-picture1{
+	background: url(../img/icon/control/发起群聊.svg) no-repeat;
+	background-size: cover;
+}
+
+#wechat-first-picture2{
+	background: url(../img/icon/control/添加朋友.svg) no-repeat;
+	background-size: cover;
+}
+
+#wechat-first-picture3{
+	background: url(../img/icon/control/扫一扫.svg) no-repeat;
+	background-size: cover;
+}
+
+#wechat-first-picture4{
+	background: url(../img/icon/control/收付款.svg) no-repeat;
+	background-size: cover;
+}
+
+#wechat-first-picture5{
+	/*background: url() no-repeat;
+	background-size: cover;*/
+}
+
+#wechat-second{
+	width: /*600px*/100%;
+	height: 100%/*425px*/;
+	flex-grow: 1;
+	display: inline-block;
+	overflow: scroll;
+}
+
+::-webkit-scrollbar{
+	display:none;
+}
+
+.wechat-second-style{
+	width: /*300px*/100%;
+	height: 60px;
+	position: relative;
+	border-bottom: 1px solid #BDBDBD;
+	/*display: flex;
+	align-items: center;
+	justify-content: space-around;*/
+}
+
+.wechat-second-style1{
+	width: 40px;height: 40px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	/*margin:10px 1px 10px 10px ;*/
+}
+
+.wechat-second-style2{
+	width: /*140px*/50%;height: 31px;
+	position: absolute;
+	left: 55px;
+	top: 15px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.wechat-second-style3{
+	width: 50px;height: 15px;
+	position: absolute;
+	right: 10px;
+	top: 15px;
+}
+
+.wechat-second-font1{
+	font-size: 10px;
+	color: black;
+	line-height: 20px;
+	text-indent: 2px;
+}
+
+.wechat-second-font2{
+	font-size: 5px;
+	color: #757575;
+	line-height: 10px;
+	text-indent: 2px;
+}
+
+.wechat-second-font3{
+	font-size: 5px;
+	color: #9E9E9E;
+	line-height: 15px;
+	text-align: center;
+}
+
+#wechat-second-picture1{
+	background: url(../img/photo/wuhong.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture2{
+	background: url(../img/photo/bsj.png) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture3{
+	background: url(../img/photo/neusoft.png) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture4{
+	background: url(../img/photo/moments-portrait/开心猫.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture5{
+	background: url(../img/photo/三胖-01.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture6{
+	background: url(../img/photo/奥巴马-01.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture7{
+	background: url(../img/photo/奥巴马-02.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture8{
+	background: url(../img/photo/女孩-01.jpeg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture9{
+	background: url(../img/photo/女孩-02.jpeg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture10{
+	background: url(../img/photo/情侣-01.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-second-picture11{
+	background: url(../img/photo/情侣-01.jpg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-menu{
+	width: /*600px*/100%;height: 50px;
+	border-top: 1px solid #E0E0E0;
+	background-color: white;
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.wechat-menu-div{
+	width: 40px;height: 50px;
+	position: relative;
+	
+}
+
+.wechat-menu-style{
+	width: 25px;
+	height: 25px;
+	/*background: url(../img/icon/menu/聊天-press.svg) no-repeat;
+	background-size: contain;*/
+	position: absolute;
+	left: 7.5px;
+	top: 5px;
+	
+}
+
+.wechat-menu-news{
+				width: 15px;height: 15px;
+				background-color: #f44336;
+				border-radius: 50%;
+				position: absolute;
+				top: -2px;
+				right: -5px;
+				color: white;
+				font-size: 10px;
+				text-align: center;
+				line-height: 15px;
+			}
+
+.wechat-menu-font{
+	width: 40px;height: 15px;
+	font-size: 10px;
+	position: absolute;
+	top: 30px;
+	line-height: 15px;
+	color: #558B2F;
+	text-align: center;	
+}
+
+#wechat-menu1{
+	background: url(../img/icon/menu/聊天-press.svg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-menu2{
+	background: url(../img/icon/menu/通讯录.svg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-menu3{
+	background: url(../img/icon/menu/发现.svg) no-repeat;
+	background-size: contain;
+}
+
+#wechat-menu4{
+	background: url(../img/icon/menu/me.svg) no-repeat;
+	background-size: contain;
+}

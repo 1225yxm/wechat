@@ -1,0 +1,98 @@
+#discovery-menu3{
+	background: url(../img/icon/menu/发现-press.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-second{
+	width: /*600px*/100%;
+	height: 100%/*425px*/;
+	flex-grow: 1;
+	display: inline-block;
+	overflow: scroll;
+	background-color: #EEEEEE;
+	
+}
+
+.discovery-style{
+	width: /*300px*/100%;
+	height: 40px;
+	position: relative;
+	background-color: white;
+	overflow: scroll;
+}
+
+.discovery-style1{
+	width: 30px;height: 30px;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+}
+
+.discovery-style2{
+	width: 150px;height: 25px;
+	position: absolute;
+	left: 55px;
+	top: 7.5px;
+}
+
+.discovery-style3{
+	width: 30px;height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 7.5px;
+}
+
+.discovery-message{
+	width: 8px;height: 8px;
+	position: absolute;
+	right: -4px;
+	top: -4px;
+	background-color: red;
+	border-radius: 50%;
+}
+
+#discovery-picture1{
+	background: url(../img/icon/dicovery/朋友圈.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture2{
+	background: url(../img/icon/dicovery/扫一扫.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture3{
+	background: url(../img/icon/dicovery/摇一摇.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture4{
+	background: url(../img/icon/dicovery/附近的人.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture5{
+	background: url(../img/icon/dicovery/漂流瓶.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture6{
+	background: url(../img/icon/dicovery/购物.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture7{
+	background: url(../img/icon/dicovery/游戏.svg) no-repeat;
+	background-size: contain;
+}
+
+#discovery-picture8{
+	background: url(../img/icon/dicovery/小程序.svg)no-repeat;
+	background-size: contain;
+}
+
+.discovery-font{
+	font-size: 15px;
+	line-height: 25px;
+	
+}

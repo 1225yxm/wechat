@@ -1,0 +1,125 @@
+#me-menu{
+	background: url(../img/icon/menu/me-press.svg) no-repeat;
+	background-size: contain;
+	
+}
+
+#me-style-top{
+	width: 100%;
+	height: 90px;
+	/*display: inline-block;*/
+	background-color: white;
+	/*align-items: center;*/
+	position: relative;
+	/*justify-content: space-around;*/
+	/*padding: 5px 5px 5px 5px;*/
+	
+}
+
+#me-style-picture{
+	width: 70px;
+	height: 70px;
+	background: url(../img/photo/女孩-02.jpeg) no-repeat;
+	background-size: contain;
+	/*margin: 10px 10px 10px 10px;*/
+	/*display: inline-block;*/
+	/*padding: 5px 5px 5px 5px;*/
+	position: absolute;
+	left: 10px;
+	top: 10px;
+}
+
+#me-style-font{
+	width:180px ;height: 50px;
+	/*float: left;*/
+	display: inline-block;
+	position: absolute;left: 100px;top: 20px;
+	
+}
+
+#me-style-top-right{
+	width: 30px;height: 30px;
+	float: right;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	background: url(../img/icon/二维码.PNG) no-repeat;
+	background-size: contain;
+}
+
+.me-style-font1{
+	width: 180px;
+	height: 30px;
+	font-size: 90%;
+	line-height: 30px;
+	
+}
+
+#me-style-font2{
+	width: 180px;
+	height: 20px;
+	font-size: 80%;
+	line-height: 20px;
+	color: #BDBDBD;
+}
+
+.me-style-menu{
+	width: 100%;
+	height: 40px;
+	position: relative;
+	background-color: white;
+	/*display: flex;
+	align-items: center;
+	justify-content: space-around;*/
+	
+}
+
+.me-style-menu1{
+	width: 30px;height: 30px;
+	position: absolute;
+	left: 10px;
+	top: 5px;
+	
+}
+
+.me-style-menu2{
+	width: 250px;height: 30px;
+	position: absolute;
+	left: 50px;top: 5px;
+	
+}
+
+/*.me-style-menu3{
+	width: ;
+}*/
+
+#me-style-picture1{
+	background: url(../img/icon/钱包.PNG) no-repeat;
+	background-size: contain;
+}
+
+#me-style-picture2{
+	background: url(../img/icon/收藏.PNG) no-repeat;
+	background-size: contain;
+}
+
+#me-style-picture3{
+	background: url(../img/icon/相册.PNG) no-repeat;
+	background-size: contain;
+}
+
+#me-style-picture4{
+	background: url(../img/icon/卡包.PNG) no-repeat;
+	background-size: contain;
+}
+
+#me-style-picture5{
+	background: url(../img/icon/表情.PNG) no-repeat;
+	background-size: contain;
+}
+
+#me-style-picture6{
+	background: url(../img/icon/设置.PNG) no-repeat;
+	background-size: contain;
+}
