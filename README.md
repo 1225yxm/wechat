@@ -1,3 +1,2 @@
 # wechat
-[微信网页](https://1225yxm.github.io/wechat/master/wechat/index.html)
-https://1225yxm.github.io/wechat/
+[微信网页](https://1225yxm.github.io/wechat/wechat/index.html)
