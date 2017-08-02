@@ -111,8 +111,9 @@
 }
 
 .friends-main-first-right{
-	width: /*75%*/270px;
+	width: /*75%*/260px;
 	height: 100%;
+	margin-right: 10px;
 	display: inline-block;
 	
 }
