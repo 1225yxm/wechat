@@ -141,7 +141,8 @@
 	width: /*60%*/100%;
 	height: /*100px*/auto;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
+	/*max-height: 200px;*/
 }
 
 .friends-main-onepicture{
@@ -243,8 +244,9 @@
 }
 
 .friends-main-fourpicture{
-	width:100px;
+	width:/*100px*/50%;
 	height: 100px;
+	
 }
 
 #friends-main-second-picture1{
@@ -278,11 +280,12 @@
 	width: /*60%*/100%;
 	height: /*100px*/auto;
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: row nowrap;
+	
 }
 
 .friends-main-threepicture{
-	width:/*100px*/33%;
+	width:/*80px*/33%;
 	height: 80px;
 }
 

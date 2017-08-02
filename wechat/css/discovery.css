@@ -92,7 +92,7 @@
 }
 
 .discovery-font{
-	font-size: 15px;
+	font-size: /*15px*/80%;
 	line-height: 25px;
 	
 }
