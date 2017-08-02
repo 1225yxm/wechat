@@ -106,7 +106,7 @@
 	width: 45px;
 	height: 45px;
 	background: url(../img/photo/1.PNG) no-repeat;
-	background-size: contain;
+	background-size: cover;
 	/*margin: 10px ;*/
 }
 
@@ -210,7 +210,7 @@
 	flex-flow: row nowrap;
 }
 
-#friends-main-bottom1{
+.friends-main-bottom1{
 	width: 20px;height: 20px;
 	margin: 7.5px ;
 	background: url(../img/icon/control/赞1.PNG) no-repeat;
@@ -278,27 +278,64 @@
 	width: /*60%*/100%;
 	height: /*100px*/auto;
 	display: flex;
-	flex-flow: row nowrap;
+	flex-flow: row wrap;
 }
 
 .friends-main-threepicture{
-	width:130px;
-	height: 100px;
+	width:/*100px*/33%;
+	height: 80px;
 }
 
 #friends-main-three-picture1{
 	background:url(../img/photo/9.PNG) no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 
 
 #friends-main-three-picture2{
+	width: 34%;
 	background:url(../img/photo/8.PNG) no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 
 
 #friends-main-three-picture3{
 	background:url(../img/photo/7.PNG) no-repeat;
+	background-size: cover;
+}
+
+.friends-main-pinglun{
+	width: 100%;
+	height: 50px;
+	background-color: #EEEEEE;
+	
+}
+
+#friends-main-pinglun1{
+	width: 100px;
+	height: 20px;
+	/*display: inline;*/
+}
+
+#friends-main-pinglun-zan{
+	background: url(../img/icon/moments/赞.svg) no-repeat;
 	background-size: contain;
+	/*display: inline-block;*/
+	/*display: inline;*/
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.friends-main-zanpeople{
+	width: 40px;
+	height: 15px;
+	/*display: inline-block;*/
+	margin-top: -25px;
+	margin-left: 20px;
+	font-size: 13px; line-height: 15px
+}
+
+.friends-main-pinglun-news{
+	width: 100%;
+	height: 30px;
 }
